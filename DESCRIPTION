@@ -1,7 +1,7 @@
 Type: Package
 Package: simITS
 Title: Analysis via Simulation of Interrupted Time Series (ITS) Data
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     c(person(given = "Luke",
              family = "Miratrix",
@@ -37,7 +37,7 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.0
 NeedsCompilation: no
-Packaged: 2020-04-22 22:10:22 UTC; lmiratrix
+Packaged: 2020-05-20 13:24:23 UTC; lmiratrix
 Author: Luke Miratrix [aut, cre],
   Brit Henderson [ctb],
   Chloe Anderson [ctb],
@@ -45,4 +45,4 @@ Author: Luke Miratrix [aut, cre],
   MDRC [fnd]
 Maintainer: Luke Miratrix <lmiratrix@g.harvard.edu>
 Repository: CRAN
-Date/Publication: 2020-04-28 09:40:02 UTC
+Date/Publication: 2020-05-20 13:50:02 UTC

@@ -105,8 +105,8 @@ aggregate_data = function( dat, outcomename, groupname, Nname,
         names(ddg) = gsub( groupname, outcomename, names(ddg) )
         stopifnot(nrow(ddg) == nrow( dd ) )  # possibly covariates varied in spread?
 
+        ddg$month = ddwts$month = NULL
         dd = dplyr::bind_cols( dd, ddg, ddwts )
-        dd$month1 = dd$month2 = NULL
     }
 
     dd
